@@ -48,7 +48,11 @@ let z: Int = 200
 print(z.dollarFormat())
 
 
-
+let largeNumber = 99999
+let numberFormatter = NumberFormatter()
+numberFormatter.numberStyle = .decimal
+let formattedNumber = numberFormatter.string(from: NSNumber(value:largeNumber))
+print(formattedNumber )
 
 //let input = "10/24/2019"
 //let formatter = DateFormatter()
