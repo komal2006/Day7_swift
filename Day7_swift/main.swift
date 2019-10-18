@@ -44,11 +44,12 @@ x.print1toN()
 let y = x.printIntValues()
 print(y)
 let z: Int = 200
-print(z.dollarFormat()) 
+
+print(z.dollarFormat())
 
 
 
 
-let input = "10/24/2019"
-let formatter = DateFormatter()
-formatter.dateFormat = 
+//let input = "10/24/2019"
+//let formatter = DateFormatter()
+//formatter.dateFormat = 

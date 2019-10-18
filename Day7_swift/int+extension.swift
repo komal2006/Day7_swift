@@ -28,7 +28,7 @@ extension Int
     }
     func dollarFormat() -> String
     {
-        return String(format: "$%0.2d", Double(self))
+        return String(format: "$%0.2f", Double(self))
         
         
 }
